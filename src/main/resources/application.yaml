@@ -1,0 +1,21 @@
+app:
+  credit:
+    sme:
+      monthly_ratio: 0.2 # Monthly ratio for sme credit line
+    startup:
+      cash_balance_ratio: 0.3333333333333333 # Cash balance ratio for startup credit line
+      monthly_ratio: 0.2 # Monthly ratio for startup credit line
+  rate_limit:
+    approved:
+      capacity: 2 # Rate limit request capacity for approved requests
+      duration: 120 # Rate limit time duration (in seconds) for approved requests
+      cache_expiration: 600 # Cache expiration (in seconds) for approved requests
+    denied:
+      capacity: 1 # Rate limit request capacity for denied requests
+      duration: 30 # Rate limit time duration (in seconds) for denied requests
+      cache_expiration: 600 # Cache expiration (in seconds) for denied requests
+      request_to_sales_count: 3 # Necessary request count for starting receiving 'A sales agent will contact you' message
+
+server:
+  error:
+    include-message: ALWAYS
