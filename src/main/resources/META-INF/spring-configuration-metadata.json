@@ -1,0 +1,54 @@
+{
+  "properties": [
+    {
+      "name": "app.credit.sme.monthly_ratio",
+      "type": "java.lang.Double",
+      "description": "Monthly ratio for SME credit line."
+    },
+    {
+      "name": "app.credit.startup.cash_balance_ratio",
+      "type": "java.lang.Double",
+      "description": "Cash balance ratio for startup credit line."
+    },
+    {
+      "name": "app.credit.startup.monthly_ratio",
+      "type": "java.lang.Double",
+      "description": "Monthly ratio for startup credit line."
+    },
+    {
+      "name": "app.rate_limit.approved.capacity",
+      "type": "java.lang.Integer",
+      "description": "Rate limit request capacity for approved requests."
+    },
+    {
+      "name": "app.rate_limit.approved.duration",
+      "type": "java.lang.Integer",
+      "description": "Rate limit time duration (in seconds) for approved requests."
+    },
+    {
+      "name": "app.rate_limit.approved.cache_expiration",
+      "type": "java.lang.Integer",
+      "description": "Cache expiration (in seconds) for approved requests."
+    },
+    {
+      "name": "app.rate_limit.denied.capacity",
+      "type": "java.lang.Integer",
+      "description": "Rate limit request capacity for denied requests."
+    },
+    {
+      "name": "app.rate_limit.denied.duration",
+      "type": "java.lang.Integer",
+      "description": "Rate limit time duration (in seconds) for denied requests."
+    },
+    {
+      "name": "app.rate_limit.denied.cache_expiration",
+      "type": "java.lang.Integer",
+      "description": "Cache expiration (in seconds) for denied requests."
+    },
+    {
+      "name": "app.rate_limit.denied.request_to_sales_count",
+      "type": "java.lang.Integer",
+      "description": "Necessary request count for starting receiving 'A sales agent will contact you' message"
+    }
+  ]
+}
